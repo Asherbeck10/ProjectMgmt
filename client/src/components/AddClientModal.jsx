@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaUser } from 'react-icons/fa';
-import { ADD_CLIENT } from './Mutations/ClientMutations';
-import { GET_CLIENTS } from './queries/ClientQueries';
+import { ADD_CLIENT } from '../Mutations/ClientMutations';
+import { GET_CLIENTS } from '../queries/ClientQueries';
 import { useMutation } from '@apollo/client';
 
 export default function AddClientModal() {

@@ -24,6 +24,7 @@ export default function Project() {
           <h5 className="text-center mt-3">Project Status</h5>
           <p className="text-center lead">{data.project.status}</p>
           <ClientInfo client={data.project.client} />
+          <DeleteProjectButton projectId={id} />
         </div>
       )}
     </>

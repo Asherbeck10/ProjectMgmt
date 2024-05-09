@@ -14,7 +14,7 @@ const ADD_CLIENT = gql`
   }
 `;
 
-// This is the mutation that will be used to delete  a client to the database.
+// This is the mutation that will be used to delete  a client from the database.
 const DELETE_CLIENTS = gql`
   mutation deleteClient($id: String!) {
     deleteClient(id: $id) {

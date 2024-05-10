@@ -16,7 +16,6 @@ export default function ClientInfo({ client }) {
         <li className="list-group-item">
           <FaPhone className="icon" />
           {client.phone}
-          {client.email}
         </li>
       </ul>
     </>

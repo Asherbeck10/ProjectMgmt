@@ -22,3 +22,6 @@ jobs:
           node-version: '20'
       - run: npm ci
       - run: npm test
+
+      - name: Build the project
+        run: npm run build
